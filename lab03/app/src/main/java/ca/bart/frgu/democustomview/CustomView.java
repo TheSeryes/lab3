@@ -97,6 +97,8 @@ class CustomView extends View
     protected void onDraw(Canvas canvas)
     {
 
+        canvas.translate(cx,cy);
+
         canvas.drawCircle(cx, cy, radius, outline);
 
         double angle = Math.toRadians(time * 6 - 90);
@@ -146,3 +148,28 @@ class CustomView extends View
         }
     }
 }
+/*
+*  un triangle , on peut avoir le long coter avec radius * radius
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+* */
